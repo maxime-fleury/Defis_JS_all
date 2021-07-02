@@ -1,0 +1,14 @@
+.row {
+    display: flex; 
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .row img {
+    width: 240px;
+    margin: 8px;
+}
+
+  .row button {
+      margin: 8px;
+  }
