@@ -12,3 +12,13 @@
   .row button {
       margin: 8px;
   }
+  body{
+    background:#101010;
+  }
+button{
+  padding:25px;
+  font-size:2em;
+  border-radius:25px;
+  background:red;
+  color:white;
+}
