@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
  <head>
+
  <meta charset="utf-8">
  <title>Player Movement</title>
- <link rel="stylesheet" href="main.css">
+ <link rel="stylesheet" href="/public/main.css">
+ <script src='/socket.io/socket.io.js'></script>
  </head>
  <body>
  <div id="gameContainer">
- <div id="player"></div>
+ <div class='player' id="player"></div>
+ <div id="players"></div>
  
- <progress id="manabar" max="100" value="30"> 70% </progress>
+ <progress id="manabar" class='manabar' max="100" value="30"> 70% </progress>
+ <progress id="healthbar" class='healthbar' max="100" value="30"> 70% </progress>
   <div id="fireBolt"></div>
+  <div id="objet"></div>
  </div>
 
- <script src="player.js" type="text/javascript"></script>
+ <script src="/public/player.js" type="text/javascript"></script>
  </body>
 </html>
